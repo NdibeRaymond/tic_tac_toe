@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <p style="font-size:4.5em">Welcome to Tic Tac Toe!</p>
+        <input id="restart" class="btn btn-primary btn-lg" role="button" type="submit" name="" value="Restart!">
+        <br>
+      </div>
+      <table style="height:300px;width:300px;margin:auto">
+        <tr>
+          <td class="r1c1" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+          <td class="r1c2" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+          <td class="r1c3" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+        </tr>
+        <tr>
+          <td class="r2c1" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+          <td class="r2c2" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+          <td class="r2c3" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+        </tr>
+        <tr>
+          <td class="r3c1" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+          <td class="r3c2" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+          <td class="r3c3" style="border:3px solid black;font-size:4.5em;height:100px;width:100px;text-align:center"></td>
+        </tr>
+      </table>
+      <h3 id="whose_turn" style="color:red"></h3>
+      <div class="text-center">
+        <br>
+        <button class="btn btn-primary btn-lg" id="done" type="button" name="button">Done</button>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src="tic_tac_toe.js">
+
+  </script>
+  </body>
+</html>
